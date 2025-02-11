@@ -1,3 +1,6 @@
-.lg\:block {
-  display:none
+@media (min-width: 1024px) {
+    .lg\:block {
+        display: block;
+        visibility: hidden;
+    }
 }
